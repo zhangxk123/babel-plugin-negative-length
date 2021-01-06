@@ -1,7 +1,7 @@
 {
 	"name": "babel-plugin-negative-length",
 	"version": "0.1.0",
-	"description": "使数组支持负数索引，获取倒数第n个单元",
+	"description": "一个babel插件，使数组支持负数索引从而可以获取倒数第n个单元",
 	"main": "src/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +20,6 @@
 	},
 	"homepage": "https://github.com/zhangxk123/babel-plugin-negative-length#readme",
 	"peerDependencies": {
-		"@babel/core": "^7.0.0"
+		"@babel/core": ">=7.0.0"
 	}
 }
